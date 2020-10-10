@@ -136,16 +136,21 @@ p {
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: relative;
+    min-height: 300px;
+    width: relative;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    word-wrap: normal;
 }
 
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: relative;;
+    min-height: 300px;
+    width: relative;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -154,10 +159,13 @@ p {
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: relative;
+    min-height: 300px;
+    width: relative;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    text-overflow: clip;
 }
 
 .search-engine-optimization img {
